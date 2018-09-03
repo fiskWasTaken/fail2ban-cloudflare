@@ -1,12 +1,12 @@
 # fail2ban-cloudflare
 
-This is a modification of a Cloudflare fail2ban action I found.
+This is a modification of a modification of an existing Cloudflare fail2ban action that can be found [on the net](https://guides.wp-bullet.com/integrate-fail2ban-cloudflare-api-v4-guide/).
 
 Since Cloudflare now supports multi-user setups, there may be the case where you need to allow another system administrator to control your Cloudflare zones without giving them the API key of the master account. This script supports such a use case.
 
 ## Prerequisites
 
-* fail2ban -- 0.10.x is recommended, as older versions do not support IPv6.
+* fail2ban -- _At least_ 0.10.x is recommended, as older versions do not support IPv6.
 * Your [Cloudflare API key](https://www.cloudflare.com/a/account/my-account) and Zone ID.
 
 ## Installation

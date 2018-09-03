@@ -15,3 +15,7 @@ Since Cloudflare now supports multi-user setups, there may be the case where you
 2. Edit the values in the `[Init]` section of the file.
 3. Edit your jail to use `cloudflare-v4` as an action.
 4. Reload fail2ban (systemd: `systemctl reload fail2ban.service`)
+
+## Footnotes
+
+* Cloudflare's Challenge and JavaScript Challenge modes are ineffective against sophisticated attacks that operate from a hijacked browser. I would advise you leave this on block.
